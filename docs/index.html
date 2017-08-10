@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>RegSmart</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="images/ico/icon.ico">
+
+</head><!--/head-->
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+                        <li><a href="#regacquire">RegAcquire</a></li>
+                        <li><a href="#services">RegSmart</a></li>
+                        <li><a href="#portfolio">Screenshots</a></li>
+                        <li><a href="#pricing">Future Work</a></li>
+                        <li><a href="#about-us">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header><!--/#header-->
+
+    <section id="main-slider" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>RegAcquire</h1>
+                        <p class="lead">
+                            Windows Registry Acquisition tool.<br></p><br/>
+                        <a href="https://github.com/AvinashSingh786/RegAcquire/raw/master/RegAcquire.exe" target="_blank"><img src="images/download.jpg" height="50" width="100"></a>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>RegSmart</h1>
+                        <p class="lead">
+                            Windows Registry Analysis tool.</p> <br/>
+                        <a href="#"><img src="images/download.jpg" height="50" width="100"></a>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+        <a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
+        <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
+    </section><!--/#main-slider-->
+
+    <section id="regacquire">
+        <div class="container">
+            <div class="box first">
+                <p class="center"><img src="images/regacquire.png" class="img-center"/></p>
+                <div class="row">
+                    <div>
+                        <div class="col-md-2 col-sm-2">
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <img src="images/regdownload.png" alt="system"/>
+                        </div>
+                        <div class="col-md-6 col-sm-3">
+                            <h4>Two Types of acquisition</h4>
+                            <p>RegAcquire is a batch script that acquires Windows Registry Dumps, it makes use of 2 other programs RawCopy and FCIV(File Checksum Integrity Verifier) for the sake of simplicity the batch script with the neccessary supporting files were built together in a standalone executable.</p>
+                            <p>RegAcquire makes use of <em><b>reg export</b></em> found built-in in Windows.</p>
+                            <p>Since <em><b>reg export</b></em> strips away some information, RegAcquire also acquires the physical hive files, in Windows system. These files are live files meaning they are constantly in use, thus making it difficult to copy it normally. VSS (Volume Shadow Copy) was used to capture these files using <a href="https://github.com/jschicht/RawCopy" target="_blank">RawCopy</a>.</p>
+                            <p><a href="https://support.microsoft.com/en-za/help/841290/availability-and-description-of-the-file-checksum-integrity-verifier-u" target="_blank">File Checksum Integrity Verifier (FCIV)</a> is used to hash the files as well as check the integrity of the forensic copy. The reason why these other two applications was used is to ensure that they can run on any Windows operating system targeted from Windows 7 and up, and for the reason that all Computers may not have some built-in features that could have been used for this purpose.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+
+                        <div class="col-md-2 col-sm-2">
+                        </div>
+                        <div class="col-md-6 col-sm-3">
+                            <h4>Forensically sound</h4>
+                            <p>RegAcquire logs each process and creates MD5 hashes of each file for verifiability.</p>
+                            <p>Since the original files are never used in Digital Forensics RegAcquire makes a forensically sound copy by copying the original files, logging each and then further verifying the copy by hashing the files of the copy and comparing them to the original files. The original files are marked as read-only and the hash file has special permissions that doesn't easily give access to anyone to write or modify it. RegAcquire performs two phase hash log to ensure that changes to the files can be detected, this is achieved by logging both in the acquired registry dumps and the entire life span of using the RegAcquire program, this is just a measure for authenticity and is only checked when there are suspicions. </p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <img src="images/forensicsound.png" alt="system"/>
+                        </div>
+                    </div>
+
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+    <span>
+        <br/>
+    </span>
+
+    <section id="services">
+        <div class="container">
+            <div class="box first">
+                <p class="center"><img src="images/logo.png" class="img-center"/></p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/system.png" alt="system"/>
+                            <h4>System Analysis</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/os.png" alt="system"/>
+                            <h4>OS Analysis</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/application.png" alt="system"/>
+                            <h4>Application Analysis</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/network.png" alt="system"/>
+                            <h4>Network Analysis</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/device.png" alt="system"/>
+                            <h4>Device Analysis</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/cache.png" alt="system"/>
+                            <h4>ShimCache Analysis</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/regview.png" alt="system"/>
+                            <h4>Registry Viewer</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <img src="images/report.png" alt="system"/>
+                            <h4>Reporting</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6" id="userman">
+                        <div class="center">
+                            <img src="images/hash.png" alt="system"/>
+                            <h4>Hash Generator</h4>
+                            <p>.</p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-12 col-sm-12" >
+                        <div class="center" >
+                            <a href="usermanual.pdf" target="_blank"><img src="images/pdf.png" alt="system"/>
+                            <h4>User Manual</h4>
+                            <p>A document explaining how to use the tool.</p>
+                            </a>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="box">
+                <div class="center gap">
+                    <h2>Screenshots</h2>
+                    <p class="lead">The various interfaces of the tools built.</p>
+                </div><!--/.center-->
+                <ul class="portfolio-filter">
+                    <li><a class="btn btn-primary active" href="#" data-filter="*">All</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".regacquire">RegAcquire</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".regsmart">RegSmart</a></li>
+
+                </ul><!--/#portfolio-filter-->
+                <ul class="portfolio-items col-3">
+
+                    <li class="portfolio-item regacquire">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regacquire/regacquirestart.png" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegAquire startup detecting system support" href="images/portfolio/screenshots/regacquire/regacquirestart.png"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegAquire startup detecting system support.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regacquire">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regacquire/export.png" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Getting reg export dumps." href="images/portfolio/screenshots/regacquire/export.png"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>Getting reg export dumps.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regacquire">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regacquire/hives.png" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RawCopy getting hive files." href="images/portfolio/screenshots/regacquire/hives.png"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RawCopy getting hive files.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+
+                <li class="portfolio-item regacquire">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/screenshots/regacquire/forensiccopy.png" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" title="Making forensic copy." href="images/portfolio/screenshots/regacquire/forensiccopy.png"><i class="icon-eye-open"></i></a>
+                            </div>
+                        </div>
+                        <h5>Making forensic copy.</h5>
+                    </div>
+                </li><!--/.portfolio-item-->
+
+                <li class="portfolio-item regacquire">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/screenshots/regacquire/verify.png" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" title="Verifying dumps." href="images/portfolio/screenshots/regacquire/verify.png"><i class="icon-eye-open"></i></a>
+                            </div>
+                        </div>
+                        <h5>Verifying dumps.</h5>
+                    </div>
+                </li><!--/.portfolio-item-->
+
+                <li class="portfolio-item regacquire">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/screenshots/regacquire/success.png" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" title="Dumps acquired." href="images/portfolio/screenshots/regacquire/success.png"><i class="icon-eye-open"></i></a>
+                            </div>
+                        </div>
+                        <h5>Dumps acquired.</h5>
+                    </div>
+                </li><!--/.portfolio-item-->
+
+                <li class="portfolio-item regacquire">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/screenshots/regacquire/log.png" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" title="Logging of the process." href="images/portfolio/screenshots/regacquire/log.png"><i class="icon-eye-open"></i></a>
+                            </div>
+                        </div>
+                        <h5>Logging of the process.</h5>
+                    </div>
+                </li><!--/.portfolio-item-->
+
+                <li class="portfolio-item regacquire">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/screenshots/regacquire/hash.png" alt="">
+                            <div class="overlay">
+                                <a class="preview btn btn-danger" title="Hash of the files.." href="images/portfolio/screenshots/regacquire/hash.png"><i class="icon-eye-open"></i></a>
+                            </div>
+                        </div>
+                        <h5>Hash of the files.</h5>
+                    </div>
+                </li><!--/.portfolio-item-->
+
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/intro.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegSmart"
+                                       href="images/portfolio/screenshots/regsmart/intro.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart Introduction.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/initial.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegSmart Home page"
+                                       href="images/portfolio/screenshots/regsmart/initial.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart Home Page.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/dumps.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Importing registry dumps"
+                                       href="images/portfolio/screenshots/regsmart/dumps.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart Importing dumps.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/hash.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegSmart Hashing interface"
+                                       href="images/portfolio/screenshots/regsmart/hash.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart Hashing interface.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/hashfile.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegSmart hash file"
+                                       href="images/portfolio/screenshots/regsmart/hashfile.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart File Hashing.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/hashfolder.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegSmart hash folder"
+                                       href="images/portfolio/screenshots/regsmart/hashfolder.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart Folder Hashing.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/regview.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Registry Viewer for manualy checking"
+                                       href="images/portfolio/screenshots/regsmart/regview.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>Registry Viewer.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/shim.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="ShimCache Analysis"
+                                       href="images/portfolio/screenshots/regsmart/shim.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>ShimCache Analysis.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                    <li class="portfolio-item regsmart">
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio/screenshots/regsmart/report.PNG" alt="">
+                                <div class="overlay">
+                                    <a class="preview btn btn-danger" title="RegSmart customizable reporting"
+                                       href="images/portfolio/screenshots/regsmart/report.PNG"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                            <h5>RegSmart Reporting.</h5>
+                        </div>
+                    </li><!--/.portfolio-item-->
+
+                </ul>
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+    <section id="pricing">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>Future Work</h2>
+                    <p class="lead">Although the tools built are fully functional, there are still various other types of information that can be extracted from the Windows Registry. Here are a few thoughts that might be incorporated in the future:</p>
+                </div><!--/.center-->   
+                <div class="big-gap"></div>
+                <div id="pricing-table" class="row">
+                    <div class="col-sm-4">
+                        <ul class="plan">
+                            <li class="plan-name ">Malware Detection</li>
+                            <li class="plan-price">Using the root hive to detect intrusive applications.</li>
+                            <li>Ability to predict, and detour events.</li>
+                            <li>Better understand malware analysis techniques.</li>
+                            <li>Advantage of having protection mechanisms in place.</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-sm-4">
+                        <ul class="plan">
+                            <li class="plan-name">User Profiling</li>
+                            <li class="plan-price">Using the NTUSER.DAT file and mappings with hives to extract user activity.</li>
+                            <li>Ability to timeline user activity.</li>
+                            <li>Ability to at a glance find incriminating evidence.</li>
+                            <li>Saving time manually searching through registry.</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                    <div class="col-sm-4">
+                        <ul class="plan">
+                            <li class="plan-name">Registry to RAM</li>
+                            <li class="plan-price">Using RAM forensics to map events and services in the RAM to Registry.</li>
+                            <li>Detect viruses attached to services and payloads.</li>
+                            <li>Find incriminating evidence.</li>
+                            <li>Ability to extensively timeline user activity from the time the computer was on.</li>
+                        </ul>
+                    </div><!--/.col-sm-4-->
+                </div> 
+            </div> 
+        </div>
+    </section><!--/#pricing-->
+
+    <section id="about-us">
+        <div class="container">
+            <div class="box">
+                <div class="center">
+                    <h2>Research</h2>
+                    <p class="lead">These tools were developed for research purposes in attempt to harness the Windows Registry and aid analysis times, by performing various types of analysis and extracting information that is useful and also being able to develop reports from the acquired analysis. These tools are free and open source and urge people to contribute to it. The code is available on <a href="https://github.com/AvinashSingh786" target="_blank">Github </a>at <pre><a href="https://github.com/AvinashSingh786/RegAcquire"> https://github.com/AvinashSingh786/RegAcquire</a></pre> and <pre><a href="https://github.com/AvinashSingh786/RegSmart"> https://github.com/AvinashSingh786/RegSmart</a></pre> There are still areas that haven't been explored in this research due to time constraints. However, they will be incorporated soon.</pre>
+                </div>
+                <div class="gap"></div>
+                <div id="team-scroller" class="carousel scale">
+                    <div class="carousel-inner">
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="member">
+                                        <a href="https://github.com/AvinashSingh786" target="_blank">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/portfolio/author/Avinash_Singh.png" alt="" ></p>
+                                        <h3>Avinash Singh<small class="designation">Creator (Student)</small></h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="member">
+                                        <a href="https://www.researchgate.net/profile/Hs_Venter" target="_blank"><p><img class="img-responsive img-thumbnail img-circle" src="images/portfolio/author/Hs_Venter.png" alt="" ></p>
+                                        <h3>Hein Venter<small class="designation">Supervisor</small></h3>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="member">
+                                        <a href="https://www.researchgate.net/profile/Ikuesan_Adeyemi" target="_blank">
+                                            <p><img class="img-responsive img-thumbnail img-circle" src="images/portfolio/author/Ikuesan_Adeyemi.png" alt="" ></p>
+                                        <h3>Ikuesan Richard Adeyemi<small class="designation">Co-Supervisor</small></h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+
+                </div><!--/.carousel-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#about-us-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="box last">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Contact Form</h1>
+                        <p>Please fill out the information below if you have any complaints or suggestions.</p>
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="main-contact-form" class="contact-form" name="contact-form"
+                              action="https://formspree.io/tashan.avi@gmail.com"
+                              method="POST" role="form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="email" name="_replyto" class="form-control" required="required" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger btn-lg" value="Send">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--/.col-sm-6-->
+                    </div><!--/.col-sm-6-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; <span id="year"></span>
+                <script>
+                    var d = new Date();
+                    var n = d.getFullYear();
+                    document.getElementById("year").innerHTML = n;
+                </script>
+                    <a target="_blank" href="#" title="RegSmart">RegSmart</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6 pull-right">
+                    <span class="pull-right">Designed by <a href="https://github.com/AvinashSingh786"> Avinash Singh</a></span>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
