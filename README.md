@@ -18,6 +18,11 @@ Install the MSI file [`RegSmart-1.0-win32.msi`](https://github.com/AvinashSingh7
  
 A Desktop icon will be visible after the installation double-click on it and it will launch the program. 
 
+## Testing environments
+  - Windows 10
+  - Windows 8.1
+  - Windows 7
+  - Windows XP
 
 ## Contributing
  
