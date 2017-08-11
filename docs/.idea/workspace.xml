@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="33aea88e-4127-4a5a-8b86-0df8ccfbebb0" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider-bg.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/application.html" afterPath="$PROJECT_DIR$/analysis/application.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/device.html" afterPath="$PROJECT_DIR$/analysis/device.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/hash.html" afterPath="$PROJECT_DIR$/analysis/hash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/network.html" afterPath="$PROJECT_DIR$/analysis/network.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/os.html" afterPath="$PROJECT_DIR$/analysis/os.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/regview.html" afterPath="$PROJECT_DIR$/analysis/regview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/reporting.html" afterPath="$PROJECT_DIR$/analysis/reporting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/shim.html" afterPath="$PROJECT_DIR$/analysis/shim.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/system.html" afterPath="$PROJECT_DIR$/analysis/system.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
@@ -21,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1101">
-              <caret line="609" column="7" lean-forward="true" selection-start-line="609" selection-start-column="7" selection-end-line="609" selection-end-column="7" />
+            <state relative-caret-position="1376">
+              <caret line="469" column="46" lean-forward="false" selection-start-line="469" selection-start-column="46" selection-end-line="469" selection-end-column="46" />
               <folding>
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#7722#7729#1" expanded="true" />
@@ -32,31 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/system.html">
+      <file leaf-file-name="os.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/os.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11910">
-              <caret line="728" column="1" lean-forward="false" selection-start-line="728" selection-start-column="1" selection-end-line="728" selection-end-column="1" />
+            <state relative-caret-position="95">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="38" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -65,18 +55,28 @@
       <file leaf-file-name="regview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis/regview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="367">
+              <caret line="24" column="237" lean-forward="false" selection-start-line="24" selection-start-column="237" selection-end-line="24" selection-end-column="237" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hash.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reporting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/reporting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hash.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analysis/hash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="333">
+              <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -114,6 +114,8 @@
       <find>info</find>
       <find>my</find>
       <find>blue</find>
+      <find>ifra</find>
+      <find>Malw</find>
     </findStrings>
     <replaceStrings>
       <replace>fa fa-eye</replace>
@@ -125,18 +127,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/analysis/os.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/analysis/application.html" />
+        <option value="$PROJECT_DIR$/analysis/system.html" />
+        <option value="$PROJECT_DIR$/analysis/os.html" />
         <option value="$PROJECT_DIR$/analysis/network.html" />
         <option value="$PROJECT_DIR$/analysis/device.html" />
         <option value="$PROJECT_DIR$/analysis/shim.html" />
-        <option value="$PROJECT_DIR$/analysis/regview.html" />
-        <option value="$PROJECT_DIR$/analysis/reporting.html" />
-        <option value="$PROJECT_DIR$/analysis/hash.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/analysis/system.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/analysis/reporting.html" />
+        <option value="$PROJECT_DIR$/analysis/regview.html" />
+        <option value="$PROJECT_DIR$/analysis/hash.html" />
       </list>
     </option>
   </component>
@@ -205,7 +207,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -243,7 +245,7 @@
       <option name="presentableId" value="Default" />
       <updated>1502285955089</updated>
       <workItem from="1502285956596" duration="26758000" />
-      <workItem from="1502432429279" duration="7068000" />
+      <workItem from="1502432429279" duration="16036000" />
     </task>
     <task id="LOCAL-00001" summary="updated documentation">
       <created>1502438774976</created>
@@ -256,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33826000" />
+    <option name="totallyTimeSpent" value="42794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -343,90 +345,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/os.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/application.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/network.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/device.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/shim.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/reporting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/hash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/regview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="-16">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11910">
-          <caret line="728" column="1" lean-forward="false" selection-start-line="728" selection-start-column="1" selection-end-line="728" selection-end-column="1" />
+        <state relative-caret-position="-7">
+          <caret line="737" column="13" lean-forward="false" selection-start-line="737" selection-start-column="13" selection-end-line="737" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/system.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="78">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/network.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/device.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/shim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="297" lean-forward="false" selection-start-line="25" selection-start-column="297" selection-end-line="25" selection-end-column="297" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/os.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="38" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1101">
-          <caret line="609" column="7" lean-forward="true" selection-start-line="609" selection-start-column="7" selection-end-line="609" selection-end-column="7" />
+        <state relative-caret-position="1376">
+          <caret line="469" column="46" lean-forward="false" selection-start-line="469" selection-start-column="46" selection-end-line="469" selection-end-column="46" />
           <folding>
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#7722#7729#1" expanded="true" />
@@ -435,10 +421,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/analysis/reporting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="452">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/regview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="24" column="237" lean-forward="false" selection-start-line="24" selection-start-column="237" selection-end-line="24" selection-end-column="237" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/hash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
           <folding />
         </state>
       </provider>

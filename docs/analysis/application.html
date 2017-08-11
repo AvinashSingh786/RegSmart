@@ -19,7 +19,34 @@
 
 </head><!--/head-->
 <body>
-<img src="../images/application.png" alt="system"/>
-<h1>Work in progress..</h1>
+<h4><img src="../images/application.png" alt="system"/> <b class="black">Application Analysis</b></h4>
+<br/>
+<p class="larger">
+    Application analysis revolves around the installed applications on the machine for all users as well as the current user the dumps were acquired from. Startup applications, Registered and installed applications were extracted from the registry dumps.
+    <br/><br/>
+    <b>Startup applications</b> - are the applications set to automatically start up once the computer is turned on.
+    <br/><br/>
+    <b>Registered applications</b> - are the applications that have official installation mostly msi installers and applications are registered and the entry is added to the registry once installed.
+    <br/><br/>
+    <b>Installed applications</b> - are the applications that are installed on the machine via other installers. For this the uninstall key was used since for each application it also creates an uninstall entry, which is more thorough.
+
+    Since there are 64-bit applications and 32-bit applications, the program caters for this by automatically getting the system architecture and finding the associated keys respectively.
+    <br/><br/>
+    For this the following registry keys were used to extract the information from <b>software hive</b> and <b>ntuser.dat</b>:
+</p>
+<pre>
+    Microsoft\\Windows\\CurrentVersion\\Run
+    RegisteredApplications
+    Microsoft\\Windows\\CurrentVersion\\Uninstall
+
+    Software\\Microsoft\\Windows\\CurrentVersion\\Run
+    Software\\RegisteredApplications
+    Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall
+
+    WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall
+    WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Run
+</pre>
+
+
 </body>
 </html>

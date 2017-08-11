@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 body {
   background: #e5e5e5;
   color: #999;
@@ -25,6 +25,9 @@ a {
 }
 .btn.btn-primary {
   background-color: #52b6ec;
+}
+.black {
+  color: #000;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary.active {
@@ -725,10 +728,16 @@ textarea#message {
     opacity: 1;
     outline: none;
 }
-
+.larger {
+  font-size: larger;
+}
 #frame {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
   width: 100% !important;
-  height: 100% !important;
+  height: 300px !important;
+}
+
+.modal-body {
+  height: 400px !important;
 }

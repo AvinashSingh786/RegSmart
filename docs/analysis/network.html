@@ -19,7 +19,21 @@
 
 </head><!--/head-->
 <body>
-<img src="../images/network.png" alt="system"/>
-<h1>Work in progress..</h1>
+<h4><img src="../images/network.png" alt="system"/> <b class="black">Network Analysis</b></h4>
+<br/>
+<p class="larger">
+    Network analysis revolves around the network cards and connection that the machine has from wireless to wired.
+    Information that was extracted from the registry are: network cards, intranet, wireless.
+    <br/><br/>
+    <b>Wireless</b> - in specific WiFi networks was looked into because it is the most common wireless network. Information extracted for this involves Name of the network, data of first connection, data of last connection, as well as the ID that Windows assigns.
+    <br/><br/>
+    For this the following registry keys were used to extract the information from <b>software hive</b>:
+</p>
+<pre>
+    Microsoft\\Windows NT\\CurrentVersion\\NetworkCards
+    Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Nla\\Cache\\Intranet
+    Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Nla\\Wireless
+    Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Profiles
+</pre>
 </body>
 </html>

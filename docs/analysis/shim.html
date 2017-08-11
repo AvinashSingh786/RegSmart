@@ -19,7 +19,18 @@
 
 </head><!--/head-->
 <body>
-<img src="../images/cache.png" alt="system"/>
-<h1>Work in progress..</h1>
+<h4><img src="../images/cache.png" alt="system"/> <b class="black">ShimCache Analysis</b></h4>
+<br/>
+<p class="larger">
+    ShimCache analysis revolves around the cache information stored in the registry regarding Windows application compatibility etc.
+    This was developed by <a href="https://github.com/mandiant/ShimCacheParser" >https://github.com/mandiant/ShimCacheParser</a>, and was incorporated into RegSmart as is with not modifications. RegSmart just calls this module in the background to generate the information provided by this module.
+    <br/><br/>
+
+    For this the following registry keys were used:
+</p>
+<pre>
+    HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatibility\AppCompatCache
+    HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache\AppCompatCache
+</pre>
 </body>
 </html>
