@@ -375,6 +375,25 @@ a:focus {
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
+.featured {
+  background-color: #52b6ec;
+  color: black
+}
+.badge {
+  cursor: pointer !important;
+}
+.info {
+  cursor: pointer !important;
+  z-index: 1 !important;
+  position: relative !important;
+}
+.none {
+    display: none !important;
+}
+.blue {
+  cursor: pointer !important;
+  color: #fcff38 !important;
+}
 #pricing .plan.featured .plan-price {
   color: #fff;
   background-color: #52b6ec;
@@ -662,4 +681,54 @@ textarea#message {
     opacity: 1;
     -o-transform: scale(1);
   }
+}
+
+
+.page {
+    padding: 15px 0 0;
+}
+
+.bmd-modalButton {
+    display: block;
+    margin: 15px auto;
+    padding: 5px 15px;
+}
+
+.close-button {
+    overflow: hidden;
+}
+
+.bmd-modalContent {
+    box-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.bmd-modalContent .close {
+    font-size: 30px;
+    line-height: 30px;
+    padding: 7px 4px 7px 13px;
+    text-shadow: none;
+    opacity: .7;
+    color:#fff;
+}
+
+#myModal {
+    padding-top: 5% !important;
+}
+.bmd-modalContent .close span {
+    display: block;
+}
+
+.bmd-modalContent .close:hover,
+.bmd-modalContent .close:focus {
+    opacity: 1;
+    outline: none;
+}
+
+#frame {
+    display: block;
+    margin: 0 auto;
+  width: 100% !important;
+  height: 100% !important;
 }

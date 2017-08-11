@@ -52,4 +52,15 @@ jQuery(function($) {
 			return false;
 		});
 	});
+
+	$(".info").on("click", function(){
+		var d = $(this).find(".none").html();
+        var title = d.charAt(0).toUpperCase() + d.substr(1);
+		$("#title").html(title + " Analysis");
+		$("#frame").attr("src", "analysis/"+d+".html");
+		$("#myModal").modal('show');
+	});
+
+
 });
+
