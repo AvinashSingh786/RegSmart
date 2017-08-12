@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico" height="50" width="50"/><h1>RegAcquire</h1>
+<img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico" height="50" width="50"/><h1>RegSmart</h1>
   
  
 ## Windows Registry Analysis Tool
