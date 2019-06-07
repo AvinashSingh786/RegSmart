@@ -1,0 +1,205 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=English
+Lang|AuthorName=Werner Rumpeltesz
+Lang|AuthorMail=info@gaijin.at
+Lang|AuthorSite=http://www.gaijin.at/
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=Ok
+General|btnCancel=Cancel
+
+General|FilterAll=All files (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Registration files (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Default web browser not found
+General|MsgNoStdBrowserText=The default web browser can´t started!
+General|MsgNoStdMailerTitle=Default mail client not found
+General|MsgNoStdMailerText=The default mail client can´t started!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=About %s1%
+
+Info|lblDescription=Viewer for raw Windows Registry files
+Info|lblVersion=Version %s1%
+Info|lblRights=All rights reserved.
+Info|lblHome=Homepage:
+Info|lblHomePage=Visit the authors website
+Info|lblMail=E-mail:
+Info|lblMailAddr=Send an e-mail to the author
+
+Info|grpLang=Language file
+Info|lblLangAuthor=Author:
+Info|lblLangHomePage=Visit the translators website
+Info|lblLangMailAddr=Send an e-mail to the translator
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Language
+
+Main|mnuFile=&File
+Main|mnuFileOpen=&Open registry files...
+Main|mnuFileSearch=&Search...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Export...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=E&xit
+Main|mnuExtras=E&xtras
+Main|mnuHelp=&Help
+Main|mnuHelpWebsite=Visit the &product website...
+Main|mnuHelpEMail=Send an e-&mail to the author...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Donate...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&About...
+
+Main|lvRegName=Value
+Main|lvRegType=Type
+Main|lvRegLength=Length
+Main|lvRegValue=Data
+
+Main|tabData=Data view
+
+Main|vleDataType=Type
+Main|vleDataValue=Value
+
+Main|tabSearch=Search result
+
+Main|lvSearchPath=Path
+Main|lvSearchValue=Value
+
+Main|pmnuText=&Text
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Copy value
+
+Main|pmnuDataCopyAs=&Copy value as
+Main|pmnuDataCopyOriginal=&Original data
+Main|pmnuDataCopyName=Copy &name
+Main|pmnuDataSave=&Save original data...
+
+Main|pmnuHexEdCopyAs=&Copy selection as
+Main|pmnuHexEdCopyAllAs=C&opy all as
+Main|pmnuHexEdSave=&Save selection...
+Main|pmnuHexEdSaveAll=Sa&ve all...
+Main|pmnuHexEdSelAll=Select &all
+
+Main|pmnuNavPathCopy=Copy &path
+Main|pmnuNavFullPathCopy=Copy &full path
+Main|pmnuNavDirNameCopy=Copy &key name
+Main|pmnuNavModTimeCopy=Copy modification &time
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Export...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Load key %s1% of %s2%
+Main|sbMainLoadVal=Load value %s1% of %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binary
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS Date
+Main|vleDataDosTime=DOS Time
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Save data
+Main|DlgSaveSelTitle=Save selection
+
+Main|DlgSaveOrigErrTitle=Save data
+Main|DlgSaveOrigErrText=The data can't be saved as "%s1%".
+Main|DlgSaveSelErrTitle=Save selection
+Main|DlgSaveSelErrText=The selection can't be saved as "%s1%".
+
+DataFiles|MsgNotUniqueTitle=File not unique
+DataFiles|MsgNotUniqueText=The files "%s1%" can not loaded twice.%w%Files must have an unique name.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Export selected key
+Main|DlgExportReadErrTitle=Export selected key
+Main|DlgExportReadErrText=The data can't be collected.
+Main|DlgExportWriteErrTitle=Export selected key
+Main|DlgExportWriteErrText=The data can't be saved as "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Open registry files
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=Open "SYSTEM" file...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Open "SOFTWARE" file...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Open "SAM" file...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Open "NTUSER.DAT" file...
+DataFiles|lblSec=SECURITY:
+DataFiles|btnSec=Open "SECURITY" file...
+DataFiles|lblDef=DEFAULT:
+DataFiles|btnDef=Open "DEFAULT" file...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Open "USERDIFF" file...
+
+DataFiles|btnReset=Reset
+
+DataFiles|dlgOpenSYSTEM=Open SYSTEM file
+DataFiles|dlgOpenSOFTWARE=Open SOFTWARE file
+DataFiles|dlgOpenSAM=Open SAM file
+DataFiles|dlgOpenNTUSER=Open NTUSER.DAT file
+DataFiles|dlgOpenSECURITY=Open SECURITY file
+DataFiles|dlgOpenDEFAULT=Open DEFAULT file
+DataFiles|dlgOpenUSERDIFF=Open USERDIFF file
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Search
+
+Search|lblSearch=Search term:
+Search|grpSearchIn=Search in
+Search|chkKeyNames=Key names
+Search|chkValueNames=Value names
+Search|chkValues=Value data
+Search|grpOptions=Options
+Search|chkWhole=Match whole term
+Search|chkCaseSensitive=Case sensitive

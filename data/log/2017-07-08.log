@@ -1,0 +1,66 @@
+[07/08/2017 08:17:27 PM] - root - [ERROR] --> An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 292, in <module>
+    b = UserInterface(root)
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 40, in __init__
+    self.root_tree = tkk.Treeview(self.master, columns=('Created', 'Modified'), length=200, height=200)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 1181, in __init__
+    Widget.__init__(self, master, "ttk::treeview", kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 559, in __init__
+    tkinter.Widget.__init__(self, master, widgetname, kw=kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2293, in __init__
+    (widgetName, self._w) + extra + self._options(cnf))
+_tkinter.TclError: unknown option "-length"
+[07/08/2017 08:17:33 PM] - root - [ERROR] --> An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 292, in <module>
+    b = UserInterface(root)
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 40, in __init__
+    self.root_tree = tkk.Treeview(self.master, columns=('Created', 'Modified'), length=200, height=200)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 1181, in __init__
+    Widget.__init__(self, master, "ttk::treeview", kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 559, in __init__
+    tkinter.Widget.__init__(self, master, widgetname, kw=kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2293, in __init__
+    (widgetName, self._w) + extra + self._options(cnf))
+_tkinter.TclError: unknown option "-length"
+[07/08/2017 08:54:07 PM] - root - [ERROR] --> An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 289, in <module>
+    b = UserInterface(root)
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 45, in __init__
+    self.root_tree.column("#0", minwidth=200, width=380, height=400, stretch=True)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 1219, in column
+    return _val_or_dict(self.tk, kw, self._w, "column", column)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 299, in _val_or_dict
+    res = tk.call(*(args + options))
+_tkinter.TclError: unknown option "-height"
+[07/08/2017 08:54:16 PM] - root - [ERROR] --> An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 289, in <module>
+    b = UserInterface(root)
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 45, in __init__
+    self.root_tree.column("#0", minwidth=200, width=380, height=400, stretch=True)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 1219, in column
+    return _val_or_dict(self.tk, kw, self._w, "column", column)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\ttk.py", line 299, in _val_or_dict
+    res = tk.call(*(args + options))
+_tkinter.TclError: unknown option "-height"
+[07/08/2017 09:34:57 PM] - root - [ERROR] --> An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 292, in <module>
+    b = UserInterface(root)
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 45, in __init__
+    self.root_tree.pack(expand=True, fill=BOTH, side=LEFT, anchor=S+N)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2137, in pack_configure
+    + self._options(cnf, kw))
+_tkinter.TclError: bad anchor "sn": must be n, ne, e, se, s, sw, w, nw, or center
+[07/08/2017 09:35:02 PM] - root - [ERROR] --> An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 292, in <module>
+    b = UserInterface(root)
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 45, in __init__
+    self.root_tree.pack(expand=True, fill=BOTH, side=LEFT, anchor=S+N)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2137, in pack_configure
+    + self._options(cnf, kw))
+_tkinter.TclError: bad anchor "sn": must be n, ne, e, se, s, sw, w, nw, or center

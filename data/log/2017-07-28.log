@@ -1,0 +1,27 @@
+[07/28/2017 12:59:21 PM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 446, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/28/2017 11:46:17 PM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 446, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/28/2017 11:48:06 PM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError

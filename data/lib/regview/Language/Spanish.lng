@@ -1,0 +1,205 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=Spanish
+Lang|AuthorName=AAM
+Lang|AuthorMail=AAM
+Lang|AuthorSite=AAM
+
+# *** Font ***
+Font|Name=Arial
+Font|Size=10
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=Aceptar
+General|btnCancel=Cancelar
+
+General|FilterAll=Todos los archivos (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Archivos de Registro (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Navegador de Internet por omisión no hallado
+General|MsgNoStdBrowserText=El Navegador de Internet por omisión no pudo ser iniciado!
+General|MsgNoStdMailerTitle=El cliente de correo por omisión no hallado.
+General|MsgNoStdMailerText=El cliente de correo por omisión no pudo ser iniciado!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=Acerca de %s1%
+
+Info|lblDescription=Visor de archivos raw Windows Registry
+Info|lblVersion=Version %s1%
+Info|lblRights=Todos los derechos reservados.
+Info|lblHome=Sitio:
+Info|lblHomePage=Visite el sitio de los autores
+Info|lblMail=E-mail:
+Info|lblMailAddr=Envíe un e-mail al autor
+
+Info|grpLang=Archivo de Idioma
+Info|lblLangAuthor=Autor:
+Info|lblLangHomePage=Visite el sitio de los traductores
+Info|lblLangMailAddr=Envíe un e-mail al traductor
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Idioma
+
+Main|mnuFile=&Archivo
+Main|mnuFileOpen=&Abrir archivos de registro/registry...
+Main|mnuFileSearch=Bu&scar...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Exportar...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=&Salir
+Main|mnuExtras=E&xtras
+Main|mnuHelp=A&yuda
+Main|mnuHelpWebsite=Visite el sitio del &producto...
+Main|mnuHelpEMail=Envíe un e-mail al autor...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Donación...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&Acerca de...
+
+Main|lvRegName=Valor
+Main|lvRegType=Tipo
+Main|lvRegLength=Longitud
+Main|lvRegValue=Dato
+
+Main|tabData=Ver datos
+
+Main|vleDataType=Tipo
+Main|vleDataValue=Valor
+
+Main|tabSearch=Buscar resultados
+
+Main|lvSearchPath=Ruta
+Main|lvSearchValue=Valor
+
+Main|pmnuText=&Texto
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Copiar valor
+
+Main|pmnuDataCopyAs=&Copiar valor como
+Main|pmnuDataCopyOriginal=Dato &Original
+Main|pmnuDataCopyName=Copiar &nombre
+Main|pmnuDataSave=&Salvar datos originales...
+
+Main|pmnuHexEdCopyAs=&Copiar selección como
+Main|pmnuHexEdCopyAllAs=C&opiar todo como
+Main|pmnuHexEdSave=&Salvar selección...
+Main|pmnuHexEdSaveAll=Sal&var todo...
+Main|pmnuHexEdSelAll=Seleccion&ar todo
+
+Main|pmnuNavPathCopy=Co&piar ruta
+Main|pmnuNavFullPathCopy=Copiar r&uta completa
+Main|pmnuNavDirNameCopy=Copiar nombre &clave
+Main|pmnuNavModTimeCopy=Copiar modificación de &hora
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Exportar...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Leer clave %s1% de %s2%
+Main|sbMainLoadVal=Leer valor %s1% de %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binary
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS Date
+Main|vleDataDosTime=DOS Time
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Salvar datos
+Main|DlgSaveSelTitle=Salvar selección
+
+Main|DlgSaveOrigErrTitle=Salvar datos
+Main|DlgSaveOrigErrText=Los datos no pueden ser salvados como "%s1%".
+Main|DlgSaveSelErrTitle=Salvar selección
+Main|DlgSaveSelErrText=La selección no puede ser salvada como "%s1%".
+
+DataFiles|MsgNotUniqueTitle=El archivo no es único
+DataFiles|MsgNotUniqueText=Los archivos "%s1%" no pueden ser cargados repetidos.%w% Archivos deben tener nombre único.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Exportar clave seleccionada
+Main|DlgExportReadErrTitle=Exportar clave seleccionada
+Main|DlgExportReadErrText=No se pueden coleccionar los datos.
+Main|DlgExportWriteErrTitle=Exportar clave seleccionada
+Main|DlgExportWriteErrText=Los datos no pueden ser salvados como "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Abrir archivos registry
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=Abrir archivo "SYSTEM"...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Abrir archivo "SOFTWARE"...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Abrir archivo "SAM"...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Abrir archivo "NTUSER.DAT"...
+DataFiles|lblSec=SECURITY:
+DataFiles|btnSec=Abrir archivo "SECURITY"...
+DataFiles|lblDef=DEFAULT:
+DataFiles|btnDef=Abrir archivo "DEFAULT"...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Abrir archivo "USERDIFF"...
+
+DataFiles|btnReset=Reiniciar
+
+DataFiles|dlgOpenSYSTEM=Abrir archivo SYSTEM
+DataFiles|dlgOpenSOFTWARE=Abrir archivo SOFTWARE
+DataFiles|dlgOpenSAM=Abrir archivo SAM
+DataFiles|dlgOpenNTUSER=Abrir archivo NTUSER.DAT
+DataFiles|dlgOpenSECURITY=Abrir archivo SECURITY
+DataFiles|dlgOpenDEFAULT=Abrir archivo DEFAULT
+DataFiles|dlgOpenUSERDIFF=Abrir archivo USERDIFF
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Buscar
+
+Search|lblSearch=Buscar término:
+Search|grpSearchIn=Buscar en
+Search|chkKeyNames=Nombres de claves
+Search|chkValueNames=Nombres de valores
+Search|chkValues=Valores de datos
+Search|grpOptions=Opciones
+Search|chkWhole=Igualdad de términos
+Search|chkCaseSensitive=Distinguir entre mayúsculas/minúsculas

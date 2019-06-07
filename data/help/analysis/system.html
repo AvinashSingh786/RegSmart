@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>RegSmart: System Analysis</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="../images/ico/icon.ico">
+
+</head><!--/head-->
+<body>
+<h4><img src="../images/system.png" alt="system"/> <b class="black">System Analysis</b></h4>
+<br/>
+<p class="larger">
+System analysis revolves around the system configurations and settings that have been set by the user for example environment variables, etc.
+Such information may be useful and show installed program traces that may have been uninstalled but still configured as a system path.
+    <br/><br/>
+What this form analysis does it extract the computer name, operating system distribution as well as version, the last shutdown time as well as the process architecture and core count. Services are also extracted from the registry, but unfortunately no mapping of them due to time constraints, but maybe soon. It is simply a list of services stored in registry which shows a lot about the system configurations and setup.
+    <br/><br/>
+    The following keys were used for the extractions from the <b>SYSTEM</b> and <b>SOFTWARE</b> hive files:<br/>
+</p>
+<pre>
+    ControlSet001\\Control\\Session Manager\\Environment
+    ControlSet001\\Control\\ComputerName\\ComputerName
+    ControlSet001\\Control\\Windows
+    ControlSet00\\Services
+
+    Microsoft\\Windows NT\\CurrentVersion
+</pre>
+
+
+
+</body>
+</html>

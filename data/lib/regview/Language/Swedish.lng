@@ -1,0 +1,205 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=Swedish
+Lang|AuthorName=Åke Engelbrektson
+Lang|AuthorMail=eson57@gmail.com
+Lang|AuthorSite=http://svenskasprakfiler.se
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=OK
+General|btnCancel=Avbryt
+
+General|FilterAll=Alla filer (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Registerfiler (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Webläsaren kan inte hittas
+General|MsgNoStdBrowserText=Webläsaren kan inte startas!
+General|MsgNoStdMailerTitle=E-postklienten kan inte hittas
+General|MsgNoStdMailerText=E-postklienten kan inte startas!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=Om %s1%
+
+Info|lblDescription=Läsare för Windows Registerfiler
+Info|lblVersion=Version %s1%
+Info|lblRights=All rights reserved.
+Info|lblHome=Hemsida:
+Info|lblHomePage=Besök utvecklarens webbsida
+Info|lblMail=E-post:
+Info|lblMailAddr=Skicka e-post till utvecklaren
+
+Info|grpLang=Språkfil
+Info|lblLangAuthor=Översättare:
+Info|lblLangHomePage=Besök översättarens hemsida
+Info|lblLangMailAddr=Skicka e-post till översättaren
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Språk
+
+Main|mnuFile=&Arkiv
+Main|mnuFileOpen=&Öppna registerfiler...
+Main|mnuFileSearch=&Sök...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Exportera...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=A&vsluta
+Main|mnuExtras=E&xtra
+Main|mnuHelp=&Hjälp
+Main|mnuHelpWebsite=Besök programmets &webbsida...
+Main|mnuHelpEMail=Skicka e-&post till utvecklaren...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Donera...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&Om...
+
+Main|lvRegName=Värde
+Main|lvRegType=Typ
+Main|lvRegLength=Längd
+Main|lvRegValue=Data
+
+Main|tabData=Datavy
+
+Main|vleDataType=Typ
+Main|vleDataValue=Värde
+
+Main|tabSearch=Sökresultat
+
+Main|lvSearchPath=Sökväg
+Main|lvSearchValue=Värde
+
+Main|pmnuText=&Text
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Kopiera värde
+
+Main|pmnuDataCopyAs=&Kopiera värde som
+Main|pmnuDataCopyOriginal=&Originaldata
+Main|pmnuDataCopyName=Kopiera &namn
+Main|pmnuDataSave=&Spara originaldata...
+
+Main|pmnuHexEdCopyAs=&Kopiera markerat som
+Main|pmnuHexEdCopyAllAs=K&opiera alla som
+Main|pmnuHexEdSave=&Spara markerat...
+Main|pmnuHexEdSaveAll=S&para alla...
+Main|pmnuHexEdSelAll=Markera &alla
+
+Main|pmnuNavPathCopy=Kopiera &sökväg
+Main|pmnuNavFullPathCopy=Kopiera &full sökväg
+Main|pmnuNavDirNameCopy=Kopiera &nyckelnamn
+Main|pmnuNavModTimeCopy=Kopiera 'Senast &ändrad'
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Exportera...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Läs in nyckel %s1% av %s2%
+Main|sbMainLoadVal=Läs in %s1% av %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binär
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS Datum
+Main|vleDataDosTime=DOS Tid
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Spara data
+Main|DlgSaveSelTitle=Spara markerat
+
+Main|DlgSaveOrigErrTitle=Spara data
+Main|DlgSaveOrigErrText=Data kan inte sparas som "%s1%".
+Main|DlgSaveSelErrTitle=Spara markerat
+Main|DlgSaveSelErrText=Markerat kan inte sparas som "%s1%".
+
+DataFiles|MsgNotUniqueTitle=Filen är inte unik
+DataFiles|MsgNotUniqueText=Filerna "%s1%" kan inte läsas in två gånger. %w%Filerna måste ha unika namn.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Exportera markerad nyckel
+Main|DlgExportReadErrTitle=Exportera markerad nyckel
+Main|DlgExportReadErrText=Data kan inte hämtas.
+Main|DlgExportWriteErrTitle=Exportera markerad nyckel
+Main|DlgExportWriteErrText=Data kan inte sparas som "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Öppna registerfiler
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=Öppna "SYSTEM"-fil...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Öppna "SOFTWARE"-fil...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Öppna "SAM"-fil...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Öppna "NTUSER.DAT"-fil...
+DataFiles|lblSec=SÄKERHET:
+DataFiles|btnSec=Öppna "SECURITY"-fil...
+DataFiles|lblDef=STANDARD:
+DataFiles|btnDef=Öppna "DEFAULT"-fil...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Öppna "USERDIFF"-fil...
+
+DataFiles|btnReset=Rensa
+
+DataFiles|dlgOpenSYSTEM=Öppna SYSTEM-fil
+DataFiles|dlgOpenSOFTWARE=Öppna SOFTWARE-fil
+DataFiles|dlgOpenSAM=Öppna SAM fil
+DataFiles|dlgOpenNTUSER=Öppna NTUSER.DAT-fil
+DataFiles|dlgOpenSECURITY=Öppna SECURITY-fil
+DataFiles|dlgOpenDEFAULT=Öppna DEFAULT-fil
+DataFiles|dlgOpenUSERDIFF=Öppna USERDIFF-fil
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Sök
+
+Search|lblSearch=Sökterm:
+Search|grpSearchIn=Sök i
+Search|chkKeyNames=Nyckelnamn
+Search|chkValueNames=Värdenamn
+Search|chkValues=Värdedata
+Search|grpOptions=Alternativ
+Search|chkWhole=Matcha hela ord
+Search|chkCaseSensitive=Skiftlägeskänslig

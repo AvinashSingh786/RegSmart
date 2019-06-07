@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>RegSmart: Device Analysis</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="../images/ico/icon.ico">
+
+</head><!--/head-->
+<body>
+<h4><img src="../images/device.png" alt="system"/> <b class="black">Device Analysis</b></h4>
+<br/>
+<p class="larger">
+    Device analysis revolves around the drivers and physical devices plugged into the machine.
+    Information that was extracted from the registry are: printer drivers, USB information.
+    <br/><br/>
+    <b>USB</b> - information that was extracted includes, type of device, Vendor, product name, revision number, serial, installed date, plugged in date and unplugged date.
+    <br/><br/>
+    For this the following registry keys were used to extract the information from <b>SOFTWARE</b> and <b>SAM</b> hive files:
+</p>
+<pre>
+    ControlSet001\\Control\\Print\\Environments
+    ControlSet001\\Enum\\USBSTOR
+</pre>
+</body>
+</html>

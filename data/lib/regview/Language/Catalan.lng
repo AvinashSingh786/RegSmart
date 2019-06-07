@@ -1,0 +1,207 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=Catalan
+Lang|AuthorName=Jaume Bosch Carbonell
+Lang|AuthorMail=mabopas@hotmail.com
+Lang|AuthorSite=(Sense direcció)
+
+# *** Font ***
+Font|Name=Arial
+Font|Size=10
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=D'acord
+General|btnCancel=Cancel·lar
+
+General|FilterAll=Tots els arxius (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Fitxers de Registre (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Navegador d'Internet per defecte no trobat
+General|MsgNoStdBrowserText=El Navegador d'Internet per omissió no va poder ser iniciat!
+General|MsgNoStdMailerTitle=El client de correu per defecte no trobat.
+General|MsgNoStdMailerText=El client de correu per defecte no va poder ser iniciat!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=Sobre %s1%
+
+Info|lblDescription=Visor d'arxius raw Windows Registry
+Info|lblVersion=Versió %s1%
+Info|lblRights=Tots els drets reservats.
+Info|lblHome=Lloc:
+Info|lblHomePage=Visiteu el lloc dels autors
+Info|lblMail=E-mail:
+Info|lblMailAddr=Enviar un e-mail a l'autor
+
+Info|grpLang=Fitxer d'idioma
+Info|lblLangAuthor=Autor:
+Info|lblLangHomePage=Visiteu el lloc dels traductors
+Info|lblLangMailAddr=Enviar un e-mail al traductor
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Idioma
+
+Main|mnuFile=&Arxiu
+Main|mnuFileOpen=&Obrir fitxers de registre...
+Main|mnuFileSearch=Cer&car...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Exporta...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=&Sortir
+Main|mnuExtras=E&xtras
+Main|mnuHelp=A&juda
+Main|mnuHelpWebsite=Visiteu el lloc del &producte...
+Main|mnuHelpEMail=Enviar un e-mail a l'autor...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Donació...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&Sobre ...
+
+Main|lvRegName=Valor
+Main|lvRegType=Tipus
+Main|lvRegLength=Longitud
+Main|lvRegValue=Dada
+
+Main|tabData=Veure dades
+
+Main|vleDataType=Tipus
+Main|vleDataValue=Valor
+
+Main|tabSearch=Cercar resultats
+
+Main|lvSearchPath=Ruta
+Main|lvSearchValue=Valor
+
+
+Main|pmnuText=&Text
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Copiar valor
+
+Main|pmnuDataCopyAs=&Copiar valor com
+Main|pmnuDataCopyOriginal=Dada &Original
+Main|pmnuDataCopyName=Copia &nom
+Main|pmnuDataSave=&Desar dades originals...
+
+Main|pmnuHexEdCopyAs=&Copiar selecció com
+Main|pmnuHexEdCopyAllAs=C&opia tot com
+Main|pmnuHexEdSave=&Desar selecció...
+Main|pmnuHexEdSaveAll=Sal&var tot...
+Main|pmnuHexEdSelAll=Seleccion&ar tot
+
+
+Main|pmnuNavPathCopy=Co&piar ruta
+Main|pmnuNavFullPathCopy=Copiar r&uta completa
+Main|pmnuNavDirNameCopy=Copia nom &clau
+Main|pmnuNavModTimeCopy=Copia modificació de &hora
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Exporta...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Llegir clau %s1% de %s2%
+Main|sbMainLoadVal=Llegir valor %s1% de %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binary
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS Date
+Main|vleDataDosTime=DOS Time
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Desa dades
+Main|DlgSaveSelTitle=Desa selecció
+
+Main|DlgSaveOrigErrTitle=Desa dades
+Main|DlgSaveOrigErrText=Les dades no poden ser salvats com "%s1%".
+Main|DlgSaveSelErrTitle=Desa selecció
+Main|DlgSaveSelErrText=La selecció no pot ser salvada com "%s1%".
+
+DataFiles|MsgNotUniqueTitle=L'arxiu no és únic
+DataFiles|MsgNotUniqueText=Els arxius "%s1%" no poden ser carregats repetits.%w% Arxius han de tenir nom únic.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Exportar clau seleccionada
+Main|DlgExportReadErrTitle=Exportar clau seleccionada
+Main|DlgExportReadErrText=No es poden col·leccionar les dades.
+Main|DlgExportWriteErrTitle=Exportar clau seleccionada
+Main|DlgExportWriteErrText=Les dades no poden ser salvats com "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Obre arxius registre
+
+Datafiles|lblSys=SYSTEM:
+Datafiles|btnSys=Obre arxiu "SYSTEM"...
+Datafiles|lblSoft=SOFTWARE:
+Datafiles|btnSoft=Obre arxiu "SOFTWARE"...
+Datafiles|lblSam=SAM:
+Datafiles|btnSam=Obre arxiu "SAM"...
+Datafiles|lblUser=NTUSER.DAT:
+Datafiles|btnUser=Obre arxiu "NTUSER.DAT"...
+Datafiles|lblSec=SECURITY:
+Datafiles|btnSec=Obre arxiu "SECURITY"...
+Datafiles|lblDef=DEFAULT:
+Datafiles|btnDef=Obre arxiu "DEFAULT"...
+Datafiles|lblDiff=USERDIFF:
+Datafiles|btnDiff=Obre arxiu "USERDIFF"...
+
+
+DataFiles|btnReset=Reiniciar
+
+Datafiles|dlgOpenSYSTEM=Obre arxiu SYSTEM
+Datafiles|dlgOpenSOFTWARE=Obre arxiu SOFTWARE
+Datafiles|dlgOpenSAM=Obre un fitxer SAM
+Datafiles|dlgOpenNTUSER=Obre arxiu NTUSER.DAT
+Datafiles|dlgOpenSECURITY=Obre arxiu SECURITY
+Datafiles|dlgOpenDEFAULT=Obre arxiu DEFAULT
+Datafiles|dlgOpenUSERDIFF=Obre arxiu USERDIFF
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Cerca
+
+Search|lblSearch=Cerca terme:
+Search|grpSearchIn=Cerca
+Search|chkKeyNames=Noms de claus
+Search|chkValueNames=Noms de valors
+Search|chkValues=Valors de dades
+Search|grpOptions=Opcions
+Search|chkWhole=Igualtat de termes
+Search|chkCaseSensitive=Distingir entre majúscules/minúscules

@@ -1,0 +1,44 @@
+2018-08-12 18:07:16,319 - [INFO] --> [RegSmart] RegSmart Started
+2018-08-12 18:07:16,679 - [INFO] --> Initiated about window
+2018-08-12 18:07:29,524 - [ERROR] --> [RegSmart] An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_M_Y1/DF-Research/H/Program/Analysis/RegSmart/RegSmart.py", line 15, in <module>
+    b = UserInterface(root)
+  File "F:\UP_2017_CS_M_Y1\DF-Research\H\Program\Analysis\RegSmart\Interface.py", line 205, in __init__
+    image = PhotoImage(file="data/img/cache.png", height=50, width=50)
+  File "C:\ProgramData\Anaconda2\envs\RegSmart\lib\tkinter\__init__.py", line 3542, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\ProgramData\Anaconda2\envs\RegSmart\lib\tkinter\__init__.py", line 3498, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "data/img/cache.png": no such file or directory
+2018-08-12 18:13:48,332 - [INFO] --> [RegSmart] RegSmart Started
+2018-08-12 18:13:48,519 - [INFO] --> Initiated about window
+2018-08-12 18:14:02,864 - [ERROR] --> [RegSmart] An error occurred
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_M_Y1/DF-Research/H/Program/Analysis/RegSmart/RegSmart.py", line 15, in <module>
+    b = UserInterface(root)
+  File "F:\UP_2017_CS_M_Y1\DF-Research\H\Program\Analysis\RegSmart\Interface.py", line 211, in __init__
+    image = PhotoImage(file="data/img/regview.png", height=50, width=50)
+  File "C:\ProgramData\Anaconda2\envs\RegSmart\lib\tkinter\__init__.py", line 3542, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\ProgramData\Anaconda2\envs\RegSmart\lib\tkinter\__init__.py", line 3498, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "data/img/regview.png": no such file or directory
+2018-08-12 18:16:01,682 - [INFO] --> [RegSmart] RegSmart Started
+2018-08-12 18:16:01,820 - [INFO] --> Initiated about window
+2018-08-12 18:18:17,476 - [INFO] --> Closed session []
+2018-08-12 18:18:42,837 - [INFO] --> Closed session []
+2018-08-12 18:23:47,161 - [INFO] --> [RegSmart] RegSmart Started
+2018-08-12 18:23:47,343 - [INFO] --> Initiated about window
+2018-08-12 18:23:54,875 - [INFO] --> Closed session []
+2018-08-12 18:28:34,668 - [INFO] --> [RegSmart] RegSmart Started
+2018-08-12 18:28:34,849 - [INFO] --> Initiated about window
+2018-08-12 18:28:50,409 - [INFO] --> Closed session []
+2018-08-12 18:28:57,816 - [INFO] --> Loaded session [Leanca_LEANCANB_2018-07-26]
+2018-08-12 18:29:01,312 - [INFO] --> Exiting RegSmart ...
+2018-08-12 18:30:36,732 - [INFO] --> [RegSmart] RegSmart Started
+2018-08-12 18:30:36,877 - [INFO] --> Initiated about window
+2018-08-12 18:30:45,962 - [INFO] --> Closed session []
+2018-08-12 18:30:48,045 - [INFO] --> Loaded session [Leanca_LEANCANB_2018-07-26]
+2018-08-12 18:30:50,977 - [INFO] --> System Analysis on [Leanca_LEANCANB_2018-07-26]
+2018-08-12 18:31:01,996 - [INFO] --> Exiting RegSmart ...

@@ -1,0 +1,191 @@
+# #####################################
+# Language file for Registry Viewer 1.1.1
+# #####################################
+
+# *** Language ***
+Lang|Language=正體中文
+Lang|AuthorName=Blueskysid
+Lang|AuthorMail=Blueskysid@Gmail.com
+Lang|AuthorSite=http://blueskysid.blogspot.com
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=確定
+General|btnCancel=取消
+
+General|FilterAll=所有檔案 (*.*)
+
+General|MsgNoStdBrowserTitle=找不到預設瀏覽器
+General|MsgNoStdBrowserText=無法啟動預設瀏覽器！
+General|MsgNoStdMailerTitle=找不到預設郵件程式
+General|MsgNoStdMailerText=無法啟動預設郵件程式！
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=關於 %s1%
+
+Info|lblDescription=編輯檢視 Windows登錄檔
+Info|lblVersion=版本 %s1%
+Info|lblRights=版權所有
+Info|lblHome=首頁：
+Info|lblHomePage=進入作者網站
+Info|lblMail=E-mail：
+Info|lblMailAddr=寄 E-mail給作者
+
+Info|grpLang=語系
+Info|lblLangAuthor=譯者：
+Info|lblLangHomePage=進入譯者網站
+Info|lblLangMailAddr=寄 E-mail給譯者
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+#Main|frmTitle=RegistryViewer 正體中文版
+
+# For other languages than English add only then language name (e.g. "Main|mnuLanguage=Deutsch").
+Main|mnuLanguage=語系
+
+Main|mnuFile=&開始
+Main|mnuFileOpen=&開啟登錄檔…
+Main|mnuFileSearch=&搜尋…
+Main|mnuFileExit=&離開
+Main|mnuExtras=&附加
+Main|mnuHelp=&說明
+Main|mnuHelpWebsite=&進入產品網站…
+Main|mnuHelpEMail=寄 E-mail給作者…
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&捐助…
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&關於…
+
+Main|lvRegName=值
+Main|lvRegType=類型
+Main|lvRegLength=長度
+Main|lvRegValue=資料
+
+Main|tabData=資料檢閱
+
+Main|vleDataType=類型
+Main|vleDataValue=值
+
+Main|tabSearch=搜尋結果
+
+Main|lvSearchPath=路徑
+Main|lvSearchValue=值
+
+Main|pmnuText=&文字
+Main|pmnuHex=&十六進位制
+
+Main|pmnuValueCopy=&複製 值
+
+Main|pmnuDataCopyAs=&複製 值 為
+Main|pmnuDataCopyOriginal=&原始資料
+Main|pmnuDataCopyName=&複製名稱
+Main|pmnuDataSave=&儲存原始資料…
+
+Main|pmnuHexEdCopyAs=&複製 選取項目 為
+Main|pmnuHexEdCopyAllAs=&複製 全部 為
+Main|pmnuHexEdSave=&儲存選取項目…
+Main|pmnuHexEdSaveAll=&儲存全部…
+Main|pmnuHexEdSelAll=&選取全部
+
+Main|pmnuNavPathCopy=&複製路徑
+Main|pmnuNavFullPathCopy=&複製全部路徑
+Main|pmnuNavDirNameCopy=&複製機碼名稱
+Main|pmnuNavModTimeCopy=&複製修改名稱
+
+Main|sbMainLoadKey=讀取機碼 %s1% of %s2%
+Main|sbMainLoadVal=讀取值 %s1% of %s2%
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=-二進位
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS 日期
+Main|vleDataDosTime=DOS 時間
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ?
+
+Main|vleDataQWordBE=QWord (Motorola / BE) ?
+
+Main|vleDataFileTimeUtc=檔案時間 UTC
+Main|vleDataFileTime=檔案時間
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=儲存資料
+Main|DlgSaveSelTitle=儲存選取項目
+
+Main|DlgSaveOrigErrTitle=儲存資料
+Main|DlgSaveOrigErrText=資料無法被儲存為 "%s1%"。
+Main|DlgSaveSelErrTitle=儲存選取項目
+Main|DlgSaveSelErrText=選取項目無法被儲存為 "%s1%"。
+
+DataFiles|MsgNotUniqueTitle=檔案已被讀取
+DataFiles|MsgNotUniqueText=檔案 "%s1%" 無法被再次讀取。%w%他必須有各自的名稱。
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=開啟登錄檔
+
+DataFiles|lblSys=SYSTEM：
+DataFiles|btnSys=開啟 "SYSTEM" 檔案…
+DataFiles|lblSoft=SOFTWARE：
+DataFiles|btnSoft=開啟 "SOFTWARE" 檔案…
+DataFiles|lblSam=SAM：
+DataFiles|btnSam=開啟 "SAM" 檔案…
+DataFiles|lblUser=NTUSER.DAT：
+DataFiles|btnUser=開啟 "NTUSER.DAT" 檔案…
+DataFiles|lblSec=SECURITY：
+DataFiles|btnSec=開啟 "SECURITY" 檔案…
+DataFiles|lblDef=DEFAULT：
+DataFiles|btnDef=開啟 "DEFAULT" 檔案…
+DataFiles|lblDiff=USERDIFF：
+DataFiles|btnDiff=開啟 "USERDIFF" 檔案…
+
+DataFiles|btnReset=重設
+
+DataFiles|dlgOpenSYSTEM=開啟 SYSTEM 檔
+DataFiles|dlgOpenSOFTWARE=開啟 SOFTWARE 檔
+DataFiles|dlgOpenSAM=開啟 SAM 檔
+DataFiles|dlgOpenNTUSER=開啟 NTUSER.DAT 檔
+DataFiles|dlgOpenSECURITY=開啟 SECURITY 檔DataFiles|dlgOpenDEFAULT=開啟 DEFAULT 檔
+DataFiles|dlgOpenUSERDIFF=開啟 USERDIFF 檔
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Search
+
+Search|lblSearch=Search term:
+Search|grpSearchIn=Search in
+Search|chkKeyNames=Key names
+Search|chkValueNames=Value names
+Search|chkValues=Value data
+Search|grpOptions=Options
+Search|chkWhole=Match whole term
+Search|chkCaseSensitive=Case sensitive

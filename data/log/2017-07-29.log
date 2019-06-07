@@ -1,0 +1,266 @@
+[07/29/2017 12:01:06 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:06:44 AM] - root - [ERROR] --> An error occurred in (system_analysis)
+Traceback (most recent call last):
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 103, in _cnfmerge
+    cnf.update(c)
+TypeError: 'int' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 467, in system_analysis
+    tk.rowconfigure(root, 0, weight=1)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 1626, in grid_rowconfigure
+    return self._grid_configure('rowconfigure', index, cnf, kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 1581, in _grid_configure
+    options = self._options(cnf, kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 1312, in _options
+    cnf = _cnfmerge((cnf, kw))
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 106, in _cnfmerge
+    for k, v in c.items():
+AttributeError: 'int' object has no attribute 'items'
+[07/29/2017 12:07:18 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:09:36 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:11:10 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:11:51 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:15:00 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:15:39 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:17:31 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:18:36 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 12:19:10 AM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 03:55:16 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 798, in application_analysis
+    tk.center_window(tk, 850, 500)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2095, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'center_window'
+[07/29/2017 04:17:38 PM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 04:19:40 PM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 04:21:22 PM] - root - [ERROR] --> An error occurred in (system_analysis_regsmart)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 447, in system_analysis_regsmart
+    keys = Parse.parse(data)
+  File "F:\UP_2017_CS_HN_S2\COS700\Projects\DF-Research\Program\Analysis\RegSmart\Parse.py", line 56, in parse
+    t = f.read().decode('utf-16-le', errors='ignore')
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\encodings\utf_16_le.py", line 16, in decode
+    return codecs.utf_16_le_decode(input, errors, True)
+MemoryError
+[07/29/2017 05:31:40 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1245, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+TypeError: string indices must be integers
+[07/29/2017 05:33:29 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1247, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:35:50 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1248, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:40:57 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1248, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:43:43 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1249, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:45:31 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1250, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:46:13 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1251, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:47:02 PM] - root - [ERROR] --> An error occurred in (OS_analysis)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1251, in device_analysis
+    tv.insert(ser, 'end', text=z['ID'], values=(z['InstallDate'], z['LastArrivalDate'],
+KeyError: 'InstallDate'
+[07/29/2017 05:47:53 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1187, in device_analysis
+    serial_data["InstallDate"] = ssss.value()
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 05:49:00 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1187, in device_analysis
+    serial_data["InstallDate"] = ssss.value()
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 05:50:08 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1186, in device_analysis
+    print(ssssv.name() + ssssv.value())
+TypeError: must be str, not list
+[07/29/2017 05:51:14 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1186, in device_analysis
+    print(ssss.name() + ssss.value())
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 05:52:30 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1186, in device_analysis
+    print(ssss.name() + ssss.value())
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 05:54:16 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1189, in device_analysis
+    serial_data["InstallDate"] = ssss.value()
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 05:54:52 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1187, in device_analysis
+    print("W: "+ssssv.value())
+TypeError: must be str, not list
+[07/29/2017 05:55:20 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1187, in device_analysis
+    print("W: "+str(ssssv.value()))
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Registry\Registry.py", line 156, in value
+    return self._vkrecord.data()
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Registry\RegistryParse.py", line 808, in data
+    raise UnknownTypeException("Unknown VK Record type 0x%x at 0x%x" % (data_type, self.offset()))
+Registry.RegistryParse.UnknownTypeException: Unknown Type Exception(Unknown VK Record type 0x12 at 0x6553f4)
+[07/29/2017 05:57:08 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1187, in device_analysis
+    print("W: "+str(ssss.value("(Default)")))
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Registry\Registry.py", line 267, in value
+    raise RegistryValueNotFoundException(self.path() + " : " + name)
+Registry.Registry.RegistryValueNotFoundException: Registry value not found: ROOT\ControlSet001\Enum\USBSTOR\CdRom&Ven_Linux&Prod_File-CD_Gadget&Rev_0310\a&2985b00b&0&HTE4C16930004009&0\Properties\{3464f7a4-2444-40b1-980a-e0903cb6d912}\000A : (Default)
+[07/29/2017 05:58:05 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1189, in device_analysis
+    print("W: " + str(ssss.value("(Default)")))
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Registry\Registry.py", line 267, in value
+    raise RegistryValueNotFoundException(self.path() + " : " + name)
+Registry.Registry.RegistryValueNotFoundException: Registry value not found: ROOT\ControlSet001\Enum\USBSTOR\CdRom&Ven_Linux&Prod_File-CD_Gadget&Rev_0310\a&2985b00b&0&HTE4C16930004009&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0064 : (Default)
+[07/29/2017 06:01:55 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1190, in device_analysis
+    serial_data["InstallDate"] = ssss.value()
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 06:03:50 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1189, in device_analysis
+    print("W: " + str(ssss.value()))
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 06:05:00 PM] - root - [ERROR] --> An error occurred in (device_analysis - USB)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 1191, in device_analysis
+    serial_data["InstallDate"] = ssss.value()
+TypeError: value() missing 1 required positional argument: 'name'
+[07/29/2017 11:24:23 PM] - root - [ERROR] --> An error occurred in (Session loading)
+Traceback (most recent call last):
+  File "F:/UP_2017_CS_HN_S2/COS700/Projects/DF-Research/Program/Analysis/RegSmart/Interface.py", line 113, in __init__
+    b = Button(self.canvas, image=image, compound=LEFT, text=session_info, align=LEFT)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2363, in __init__
+    Widget.__init__(self, master, 'button', cnf, kw)
+  File "C:\Users\Avinash\AppData\Local\Programs\Python\Python36-32\lib\tkinter\__init__.py", line 2293, in __init__
+    (widgetName, self._w) + extra + self._options(cnf))
+_tkinter.TclError: unknown option "-align"

@@ -1,0 +1,205 @@
+# #######################################
+# Language file for Registry Viewer 1.3
+# #######################################
+
+# *** Language ***
+Lang|Language=Русский
+Lang|AuthorName=unknown
+Lang|AuthorMail=n.a.	
+Lang|AuthorSite=n.a.
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=ОК
+General|btnCancel=Отмена
+
+General|FilterAll=Все файлы (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Registration files (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Не найден браузер по умолчанию
+General|MsgNoStdBrowserText=Браузер не запускается!
+General|MsgNoStdMailerTitle=Не найден почтовый клиент по умолчанию
+General|MsgNoStdMailerText=Почтовый клиент не запускается!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=О программе %s1%
+
+Info|lblDescription=Просмотрщик "сырых" файлов реестра
+Info|lblVersion=Версия %s1%
+Info|lblRights=Все права сохранены.
+Info|lblHome=Сайт:
+Info|lblHomePage=Посетить сайт автора
+Info|lblMail=E-mail:
+Info|lblMailAddr=Написать автору e-mail
+
+Info|grpLang=Языковый файл
+Info|lblLangAuthor=Автор:
+Info|lblLangHomePage=Посетить сайт переводчика
+Info|lblLangMailAddr=Написать переводчику e-mail
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Язык
+
+Main|mnuFile=&Файл
+Main|mnuFileOpen=&Открыть файлы реестра...
+Main|mnuFileSearch=&Найти...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Отправить на экспорт...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=&Выход
+Main|mnuExtras=&Опции
+Main|mnuHelp=&Помощь
+Main|mnuHelpWebsite=Посетить &сайт программы...
+Main|mnuHelpEMail=Написать автору e-&mail...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Пожертвовать...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&О программе...
+
+Main|lvRegName=Имя
+Main|lvRegType=Тип
+Main|lvRegLength=Длина
+Main|lvRegValue=Значение
+
+Main|tabData=Просмотр данных
+
+Main|vleDataType=Тип
+Main|vleDataValue=Значение
+
+Main|tabSearch=Результат поиска
+
+Main|lvSearchPath=Путь
+Main|lvSearchValue=Параметр
+
+Main|pmnuText=&Текст
+Main|pmnuHex=&HEX
+
+Main|pmnuValueCopy=&Копировать параметр
+
+Main|pmnuDataCopyAs=&Копировать параметр как...
+Main|pmnuDataCopyOriginal=&Оригинальные значения
+Main|pmnuDataCopyName=Копировать &имя
+Main|pmnuDataSave=&Сохранить оригинальные значения...
+
+Main|pmnuHexEdCopyAs=&Копировать выделенное как...
+Main|pmnuHexEdCopyAllAs=К&опировать всё как...
+Main|pmnuHexEdSave=&Копировать выделенное...
+Main|pmnuHexEdSaveAll=&Сохранить всё...
+Main|pmnuHexEdSelAll=&Выбрать всё
+
+Main|pmnuNavPathCopy=Копировать &путь к разделу (без имени файла)
+Main|pmnuNavFullPathCopy=Копировать п&олный путь к разделу (с именем файла)
+Main|pmnuNavDirNameCopy=Копировать &имя раздела
+Main|pmnuNavModTimeCopy=Копировать &время последнего изменения раздела
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Отправить на экспорт...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Загрузка раздела %s1% из %s2%
+Main|sbMainLoadVal=Загрузка параметра %s1% из %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binary
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=Дата в формате DOS
+Main|vleDataDosTime=Время в формате DOS
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Сохранить значения
+Main|DlgSaveSelTitle=Сохранить выделенное
+
+Main|DlgSaveOrigErrTitle=Сохранить значения
+Main|DlgSaveOrigErrText=Значения не могут быть сохранены в "%s1%".
+Main|DlgSaveSelErrTitle=Сохранить выделенное
+Main|DlgSaveSelErrText=Выделенное не может быть сохранено в "%s1%".
+
+DataFiles|MsgNotUniqueTitle=Файл не уникален
+DataFiles|MsgNotUniqueText=Файл(ы) "%s1%" не могут быть загружены больше одного раза. %w%Файлы не должны повторяться.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Экспорт выделенного ключа
+Main|DlgExportReadErrTitle=Экспорт выделенного ключа
+Main|DlgExportReadErrText=Данные не могут быть собраны.
+Main|DlgExportWriteErrTitle=Экспорт выделенного ключа
+Main|DlgExportWriteErrText=Значения не могут быть сохранены в "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Открыть файлы реестра
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=Открыть файл "SYSTEM"...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Открыть файл "SOFTWARE"...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Открыть файл "SAM"...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Открыть файл "NTUSER.DAT"...
+DataFiles|lblSec=SECURITY:
+DataFiles|btnSec=Открыть файл "SECURITY"...
+DataFiles|lblDef=DEFAULT:
+DataFiles|btnDef=Открыть файл "DEFAULT"...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Открыть файл "USERDIFF"...
+
+DataFiles|btnReset=Сброс
+
+DataFiles|dlgOpenSYSTEM=Открыть файл SYSTEM
+DataFiles|dlgOpenSOFTWARE=Открыть файл SOFTWARE
+DataFiles|dlgOpenSAM=Открыть файл SAM
+DataFiles|dlgOpenNTUSER=Открыть файл NTUSER.DAT
+DataFiles|dlgOpenSECURITY=Открыть файл SECURITY
+DataFiles|dlgOpenDEFAULT=Открыть файл DEFAULT
+DataFiles|dlgOpenUSERDIFF=Открыть файл USERDIFF
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Поиск
+
+Search|lblSearch=Найти:
+Search|grpSearchIn=Просматривать при поиске: 
+Search|chkKeyNames=имена разделов
+Search|chkValueNames=имена параметров
+Search|chkValues=значения параметров
+Search|grpOptions=Опции
+Search|chkWhole=Искать только строку целиком
+Search|chkCaseSensitive=Учитывать верхний/нижний регистр

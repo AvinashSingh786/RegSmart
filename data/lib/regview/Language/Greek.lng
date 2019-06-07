@@ -1,0 +1,205 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=Greek
+Lang|AuthorName=geogeo.gr
+Lang|AuthorMail=
+Lang|AuthorSite=http://www.geogeo.gr
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=Εντάξει
+General|btnCancel=’κυρο
+
+General|FilterAll=Όλα τα αρχεία (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Αρχεία μητρώου (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Το προεπιλεγμένο πρόγραμμα περιήγησης ιστού δεν βρέθηκε
+General|MsgNoStdBrowserText=Το προεπιλεγμένο πρόγραμμα περιήγησης ιστού δεν μπόρεσε να ξεκινήσει!
+General|MsgNoStdMailerTitle=Το προεπιλεγμένο πρόγραμμα-πελάτης αλληλογραφίας δεν βρέθηκε
+General|MsgNoStdMailerText=Το προεπιλεγμένο πρόγραμμα-πελάτης αλληλογραφίας δεν μπόρεσε να ξεκινήσει!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+ 
+Info|frmTitle=Περί %s1%
+
+Info|lblDescription=Πρόγραμμα προβολής για αρχεία raw του Μητρώου των Windows
+Info|lblVersion=Έκδοση %s1%
+Info|lblRights=Με επιφύλαξη κάθε νόμιμου δικαιώματος.
+Info|lblHome=Ιστοσελίδα:
+Info|lblHomePage=Επισκεφθείτε την ιστοσελίδα του δημιουργού
+Info|lblMail=E-mail:
+Info|lblMailAddr=Αποστολή e-mail στο δημιουργό
+
+Info|grpLang=Αρχείο γλώσσας
+Info|lblLangAuthor=Δημιουργός:
+Info|lblLangHomePage=Επισκεφθείτε την ιστοσελίδα του μεταφραστή
+Info|lblLangMailAddr=Αποστολή e-mail στον μεταφραστή
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Γλώσσα
+
+Main|mnuFile=&Αρχείο
+Main|mnuFileOpen=’&νοιγμα αρχείων μητρώου...
+Main|mnuFileSearch=&Αναζήτηση...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Εξαγωγή...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=Έ&ξοδος
+Main|mnuExtras=Επι&λογές
+Main|mnuHelp=&Βοήθεια
+Main|mnuHelpWebsite=&Επίσκεψη στην ιστοσελίδα του προϊόντος...
+Main|mnuHelpEMail=&Αποστολή e-mail στο δημιουργό...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Δωρεά...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&Περί...
+
+Main|lvRegName=Τιμή
+Main|lvRegType=Τύπος
+Main|lvRegLength=Μήκος
+Main|lvRegValue=Δεδομένα
+
+Main|tabData=Προβολή δεδομένων
+
+Main|vleDataType=Τύπος
+Main|vleDataValue=Τιμή
+
+Main|tabSearch=Αποτέλεσμα αναζήτησης
+
+Main|lvSearchPath=Διαδρομή
+Main|lvSearchValue=Τιμή
+
+Main|pmnuText=&Κείμενο
+Main|pmnuHex=&Δεκαεξαδικός
+
+Main|pmnuValueCopy=Αντι&γραφή τιμής
+
+Main|pmnuDataCopyAs=Αντι&γραφή τιμής ως
+Main|pmnuDataCopyOriginal=&Αρχικά δεδομένα
+Main|pmnuDataCopyName=Αντιγραφή &ονόματος
+Main|pmnuDataSave=&Αποθήκευση αρχικών δεδομένων...
+
+Main|pmnuHexEdCopyAs=Αντιγραφή επιλεγμένων &ως
+Main|pmnuHexEdCopyAllAs=Αντι&γραφή όλων
+Main|pmnuHexEdSave=&Αποθήκευση επιλεγμένων...
+Main|pmnuHexEdSaveAll=Απο&θήκευση όλων...
+Main|pmnuHexEdSelAll=Επι&λογή όλων
+
+Main|pmnuNavPathCopy=Αντιγραφή &διαδρομής
+Main|pmnuNavFullPathCopy=Αντιγραφή &πλήρους διαδρομής
+Main|pmnuNavDirNameCopy=Αντιγραφή ονόματος &κλειδιού
+Main|pmnuNavModTimeCopy=Αντιγραφή &χρόνου τροποποίησης
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=Ε&ξαγωγή...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Φόρτωση κλειδιού %s1% από %s2%
+Main|sbMainLoadVal=Φόρτωση τιμής %s1% από %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Δυαδικός
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=Ημερομηνία DOS
+Main|vleDataDosTime=Ώρα DOS
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=Χρόνος UTC
+Main|vleDataTimeT=Χρόνος
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Αποθήκευση δεδομένων
+Main|DlgSaveSelTitle=Αποθήκευση επιλεγμένων
+
+Main|DlgSaveOrigErrTitle=Αποθήκευση δεδομένων
+Main|DlgSaveOrigErrText=Τα δεδομένα δεν μπορούν να αποθηκευτούν ως "%s1%".
+Main|DlgSaveSelErrTitle=Αποθήκευση επιλεγμένων
+Main|DlgSaveSelErrText=Τα επιλεγμένα δεν μπορούν να αποθηκευτούν ως "%s1%".
+
+DataFiles|MsgNotUniqueTitle=Το αρχείο δεν μοναδικό
+DataFiles|MsgNotUniqueText=Τα αρχεία "%s1%" δεν μπορούν να φορτωθούν δύο φορές.%w%Τα αρχεία πρέπει να έχουν ένα μοναδικό όνομα.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Εξαγωγή επιλεγμένου κλειδιού
+Main|DlgExportReadErrTitle=Εξαγωγή επιλεγμένου κλειδιού
+Main|DlgExportReadErrText=Τα δεδομένα δεν μπορούν να συλλεχθούν.
+Main|DlgExportWriteErrTitle=Εξαγωγή επιλεγμένου κλειδιού
+Main|DlgExportWriteErrText=Τα δεδομένα δεν μπορούν να αποθηκευτούν "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=’νοιγμα αρχείων μητρώου
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=’νοιγμα αρχείου "SYSTEM"...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=’νοιγμα αρχείου "SOFTWARE"...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=’νοιγμα αρχείου "SAM"...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=’νοιγμα αρχείου "NTUSER.DAT"...
+DataFiles|lblSec=SECURITY:
+DataFiles|btnSec=’νοιγμα αρχείου "SECURITY"...
+DataFiles|lblDef=DEFAULT:
+DataFiles|btnDef=’νοιγμα αρχείου "DEFAULT"...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=’νοιγμα αρχείου "USERDIFF"...
+
+DataFiles|btnReset=Επαναφορά
+
+DataFiles|dlgOpenSYSTEM=’νοιγμα αρχείου SYSTEM
+DataFiles|dlgOpenSOFTWARE=’νοιγμα αρχείου SOFTWARE
+DataFiles|dlgOpenSAM=’νοιγμα αρχείου SAM
+DataFiles|dlgOpenNTUSER=’νοιγμα αρχείου NTUSER.DAT
+DataFiles|dlgOpenSECURITY=’νοιγμα αρχείου SECURITY
+DataFiles|dlgOpenDEFAULT=’νοιγμα αρχείου DEFAULT
+DataFiles|dlgOpenUSERDIFF=’νοιγμα αρχείου USERDIFF
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Αναζήτηση
+
+Search|lblSearch=Όρος αναζήτησης:
+Search|grpSearchIn=Αναζήτηση σε
+Search|chkKeyNames=Ονόματα κλειδιών
+Search|chkValueNames=Ονόματα τιμών
+Search|chkValues=Δεδομένα τιμών
+Search|grpOptions=Επιλογές
+Search|chkWhole=Ταίριασμα ολόκληρου του όρου
+Search|chkCaseSensitive=Διάκριση πεζών-κεφαλαίων

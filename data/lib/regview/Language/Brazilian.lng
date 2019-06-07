@@ -1,0 +1,171 @@
+# #####################################
+# Language file for Registry Viewer 1.0
+# #####################################
+
+# *** Language ***
+Lang|Language=Brazilan Portuguese
+Lang|AuthorName=Paulo Neto
+Lang|AuthorMail=layoutbr@lexxa.com.br
+Lang|AuthorSite=http://www.layout.com.br/
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=Ok
+General|btnCancel=Cancelar
+
+General|FilterAll=Todos os arquivos (*.*)
+
+General|MsgNoStdBrowserTitle=Navegador padrão não encontrado
+General|MsgNoStdBrowserText=O navegador padrão não pode ser iniciado!
+General|MsgNoStdMailerTitle=Cliente de e-mail padrão não encontrado
+General|MsgNoStdMailerText=O cliente de e-mail padrão não pode ser encontrado!
+
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=Sobre o %s1%
+
+Info|lblDescription=Visualizador de Arquivos de Registo do Windows
+Info|lblVersion=Versão %s1%
+Info|lblRights=Todos os direitos reservados.
+Info|lblHome=Homepage:
+Info|lblHomePage=Visite o website do autor
+Info|lblMail=E-mail:
+Info|lblMailAddr=Enviar um e-mail para o autor
+
+Info|grpLang=Idioma
+Info|lblLangAuthor=Autor:
+Info|lblLangHomePage=Visite o website do tradutor
+Info|lblLangMailAddr=Enviar um e-mail para o tradutor
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+#Main|frmTitle=RegistryViewer
+
+Main|mnuLanguage=Language
+
+Main|mnuFile=Ar&quivo
+Main|mnuFileOpen=A&brir arquivos de registro...
+Main|mnuFileSearch=&Localizar...
+Main|mnuFileExit=Sa&ir
+Main|mnuExtras=E&xtras
+Main|mnuHelp=A&juda
+Main|mnuHelpWebsite=Visitar o website do &produto...
+Main|mnuHelpEMail=Enviar um e-&mail para o autor...
+Main|mnuHelpDonate=&Donativos com PayPal...
+Main|mnuHelpInfo=&Sobre...
+
+Main|lvRegName=Valor
+Main|lvRegType=Tipo
+Main|lvRegLength=Comprimento
+Main|lvRegValue=Dados
+
+Main|tabData=Guia de dados
+
+Main|vleDataType=Tipo
+Main|vleDataValue=Valor
+
+Main|tabSearch=Resultado da busca
+
+Main|lvSearchPath=Caminho
+Main|lvSearchValue=Valor
+
+Main|pmnuText=&Texto
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Copiar valor
+
+Main|pmnuDataCopyAs=&Copiar valor como
+Main|pmnuDataCopyOriginal=Dados &originais
+Main|pmnuDataCopyName=Copiar &nome
+Main|pmnuDataSave=&Salvar dados originais...
+
+Main|pmnuHexEdCopyAs=&Copiar seleção como
+Main|pmnuHexEdCopyAllAs=C&opiar tudo como
+Main|pmnuHexEdSave=&Salvar seleção...
+Main|pmnuHexEdSaveAll=Sal&var tudo...
+Main|pmnuHexEdSelAll=Selecionar &tudo
+
+Main|pmnuNavPathCopy=Copiar camin&ho
+Main|pmnuNavFullPathCopy=Copiar caminho co&mpleto
+Main|pmnuNavDirNameCopy=Co&piar nome da chave
+
+Main|sbMainLoadKey=Carregar a chave %s1% of %s2%
+Main|sbMainLoadVal=Carregar o valor %s1% of %s2%
+
+Main|DlgSaveDataTitle=Salvar dados
+Main|DlgSaveSelTitle=Salvar seleção
+
+Main|DlgSaveOrigErrTitle=Salvar dados
+Main|DlgSaveOrigErrText=Os dados não puderam ser armazenados como "%s1%".
+Main|DlgSaveSelErrTitle=Salvar seleção
+Main|DlgSaveSelErrText=A seleção não pode ser armazenada como "%s1%".
+
+DataFiles|MsgNotUniqueTitle=Arquivo existente
+DataFiles|MsgNotUniqueText=O arquivo "%s1%" não pode ser carregado duas vezes.%w%Os arquivos devem ter somente um nome.
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Arquivos de registro abertos
+
+DataFiles|lblSys=SISTEMA:
+DataFiles|btnSys=Abrir arquivo de "SISTEMA"...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Abrir arquivo do "SOFTWARE"...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Abrir arquivo "SAM"...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Abrir arquivo "NTUSER.DAT"...
+DataFiles|lblSec=SEGURANÇA:
+DataFiles|btnSec=Abrir arquivo de "SEGURANÇA"...
+DataFiles|lblDef=PADRÃO:
+DataFiles|btnDef=Abrir arquivo "PADRÃO"...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Abrir arquivo "USERDIFF"...
+
+DataFiles|btnReset=Limpar
+
+DataFiles|dlgOpenSYSTEM=Abrir arquivo de SISTEMA
+DataFiles|dlgOpenSOFTWARE=Abrir arquivo do SOFTWARE
+DataFiles|dlgOpenSAM=Abrir arquivo SAM
+DataFiles|dlgOpenNTUSER=Abrir arquivo NTUSER.DAT
+DataFiles|dlgOpenSECURITY=Abrir arquivo SEGURANÇA
+DataFiles|dlgOpenDEFAULT=Abrir arquivo PADRÃO
+DataFiles|dlgOpenUSERDIFF=Abrir arquivo USERDIFF
+
+
+
+# ###################
+# ### Search form ###
+# ###################
+
+Search|frmTitle=Localizar
+
+Search|lblSearch=Localizar:
+Search|grpSearchIn=Localizar em
+Search|chkKeyNames=Nome das chaves
+Search|chkValueNames=Nome dos valores
+Search|chkValues=valores de dados
+Search|grpOptions=Opções
+Search|chkWhole=Combinar termo
+Search|chkCaseSensitive=Letras sensíveis
+

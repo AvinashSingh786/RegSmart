@@ -1,0 +1,204 @@
+# #####################################
+# Language file for Registry Viewer 1.3
+# #####################################
+
+# *** Language ***
+Lang|Language=Nederlands
+Lang|AuthorName=Ton Korbans
+Lang|AuthorMail=startholland@gmail.com
+Lang|AuthorSite=http://www.zoekmaar.com/
+
+# *** Font ***
+Font|Name=Tahoma
+Font|Size=8
+
+
+
+# ###############
+# ### General ###
+# ###############
+
+General|btnOk=Ok
+General|btnCancel=Cancel
+
+General|FilterAll=All files (*.*)
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+General|FilterReg=Registration files (*.reg)
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+General|MsgNoStdBrowserTitle=Standaard web browser niet gevonden 
+General|MsgNoStdBrowserText=De standaard webbrowser kan niet worden gestart!  
+General|MsgNoStdMailerTitle=Standaard mail client niet gevonden  
+General|MsgNoStdMailerText=De standaard mail client kan niet worden gestart!  
+
+
+# ##################
+# ### About form ###
+# ##################
+
+Info|frmTitle=About %s1%
+
+Info|lblDescription=Leest systeeminformatie uit Windows Register bestanden 
+Info|lblVersion=Versie %s1% 
+Info|lblRights=Alle rechten voorbehouden.
+Info|lblHome=Homepage:
+Info|lblHomePage=Bezoek de website van de auteur
+Info|lblMail=E-mail:
+Info|lblMailAddr=Stuur een e-mail naar de auteur
+
+Info|grpLang=Taalbestand 
+Info|lblLangAuthor=Auteur: 
+Info|lblLangHomePage=Bezoek de website van de vertaler 
+Info|lblLangMailAddr=Stuur een e-mail naar de vertaler
+
+
+
+# #################
+# ### Main form ###
+# #################
+
+Main|mnuLanguage=Taal
+
+Main|mnuFile=&Bestand
+Main|mnuFileOpen=&Open registerbestanden...  
+Main|mnuFileSearch=&Zoek...
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuFileExport=&Export...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuFileExit=E&xit
+Main|mnuExtras=E&xtras
+Main|mnuHelp=&Help
+Main|mnuHelpWebsite=Bezoek de website van dit produkt...
+Main|mnuHelpEMail=Stuur een e-&mail naar de auteur...
+# >>> CHANGED 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|mnuHelpDonate=&Doneer...
+# <<< CHANGED 1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Main|mnuHelpInfo=&Over...
+
+Main|lvRegName=Value
+Main|lvRegType=Type
+Main|lvRegLength=Length
+Main|lvRegValue=Data
+
+Main|tabData=Data view
+
+Main|vleDataType=Type
+Main|vleDataValue=Value
+
+Main|tabSearch=Zoek resultaat
+
+Main|lvSearchPath=Pad
+Main|lvSearchValue=Value
+
+Main|pmnuText=&Tekst
+Main|pmnuHex=&Hexadecimal
+
+Main|pmnuValueCopy=&Copieer waarde
+
+Main|pmnuDataCopyAs=&Copy waardee as
+Main|pmnuDataCopyOriginal=&Originele bestanden
+Main|pmnuDataCopyName=Copieer &naam
+Main|pmnuDataSave=&Bewaar originele bestanden...
+
+Main|pmnuHexEdCopieerAs=&Copieer selectie als
+Main|pmnuHexEdCopyAllAs=C&opieer alles als
+Main|pmnuHexEdSave=&Bewaar selectie...
+Main|pmnuHexEdSaveAll=Be&waar alles...
+Main|pmnuHexEdSelAll=Selecteer &alles
+
+Main|pmnuNavPathCopy=Copieer &pad
+Main|pmnuNavFullPathCopy=Copieer &volledig pad
+Main|pmnuNavDirNameCopy=Copieer &sleutel naam
+Main|pmnuNavModTimeCopy=Copieer wijzigings &tijdm
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|pmnuNavExport=&Export...
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|sbMainLoadKey=Load key %s1% of %s2%
+Main|sbMainLoadVal=Load value %s1% of %s2%
+
+# >>> ADDED 1.1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|vleDataByte=Byte
+Main|vleDataBinary=Binary
+Main|vleDataWordLE=Word (Intel / LE)
+Main|vleDataWordBE=Word (Motorola / BE)
+Main|vleDataDosDate=DOS Date
+Main|vleDataDosTime=DOS Time
+Main|vleDataDWordLE=DWord (Intel / LE)
+Main|vleDataDWordBE=DWord (Motorola / BE)
+Main|vleDataTimeTUtc=time_t UTC
+Main|vleDataTimeT=time_t
+Main|vleDataQWordLE=QWord (Intel / LE) ±
+Main|vleDataQWordBE=QWord (Motorola / BE) ±
+Main|vleDataFileTimeUtc=FILETIME UTC
+Main|vleDataFileTime=FILETIME
+# <<< ADDED 1.1.1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Main|DlgSaveDataTitle=Bewaar bestand
+Main|DlgSaveSelTitle=Bewaar selectie
+
+Main|DlgSaveOrigErrTitle=Bewaar bestanden
+Main|DlgSaveOrigErrText=De bestanden kunnen niet bewaard worden als "%s1%".
+Main|DlgSaveSelErrTitle=Bewaar selectie
+Main|DlgSaveSelErrText=De selectie kan niet bewaard worden als "%s1%".
+
+DataFiles|MsgNotUniqueTitle=File is niet uniek
+DataFiles|MsgNotUniqueText=De files "%s1%" kunnen niet twee keer geladen worden.%w%Files moeten een unieke naam hebben.
+
+# >>> ADDED 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Main|DlgExportTitle=Exporteer geselecteerde waarde
+Main|DlgExportReadErrTitle=Export geselecteerde sleutel
+Main|DlgExportReadErrText=De bestanden kunnen niet verzameld worden.
+Main|DlgExportWriteErrTitle=Exporteer de geselecteerde sleutel
+Main|DlgExportWriteErrText=De bestanden kunnen niet bewaard worden als "%s1%".
+# <<< ADDED 1.3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+# ######################
+# ### DataFiles form ###
+# ######################
+
+DataFiles|frmTitle=Open register bestanden
+
+DataFiles|lblSys=SYSTEM:
+DataFiles|btnSys=Open "SYSTEM" file...
+DataFiles|lblSoft=SOFTWARE:
+DataFiles|btnSoft=Open "SOFTWARE" file...
+DataFiles|lblSam=SAM:
+DataFiles|btnSam=Open "SAM" file...
+DataFiles|lblUser=NTUSER.DAT:
+DataFiles|btnUser=Open "NTUSER.DAT" file...
+DataFiles|lblSec=SECURITY:
+DataFiles|btnSec=Open "SECURITY" file...
+DataFiles|lblDef=DEFAULT:
+DataFiles|btnDef=Open "DEFAULT" file...
+DataFiles|lblDiff=USERDIFF:
+DataFiles|btnDiff=Open "USERDIFF" file...
+
+DataFiles|btnReset=Reset
+
+DataFiles|dlgOpenSYSTEM=Open SYSTEM file
+DataFiles|dlgOpenSOFTWARE=Open SOFTWARE file
+DataFiles|dlgOpenSAM=Open SAM file
+DataFiles|dlgOpenNTUSER=Open NTUSER.DAT file
+DataFiles|dlgOpenSECURITY=Open SECURITY file
+DataFiles|dlgOpenDEFAULT=Open DEFAULT file
+DataFiles|dlgOpenUSERDIFF=Open USERDIFF file
+
+
+
+# ###################
+# ### Zoek vorm ###
+# ###################
+
+Search|frmTitle=Zoek
+
+Search|lblSearch=Zoek term:
+Search|grpSearchIn=Zoek in
+Search|chkKeyNames=Sleutel namen
+Search|chkValueNames=Waarde namen
+Search|chkValues=Waarde data
+Search|grpOptions=Opties
+Search|chkWhole=Gehele term moet overeenkomen
+Search|chkCaseSensitive=Hoofdletter gevoelig

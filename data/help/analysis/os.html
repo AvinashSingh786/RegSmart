@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>RegSmart: OS Analysis</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="icon" href="../images/ico/icon.ico">
+
+</head><!--/head-->
+<body>
+<h4><img src="../images/os.png" alt="system"/> <b class="black">OS Analysis</b></h4>
+<br/>
+<p class="larger">
+    OS analysis revolves around the operating system installed on the machine as well as the users and operating specific identities.
+    Information that was extracted from the registry are: product name, release id, current build, product id, path name, installed date, organization information, owner name.
+    <br/><br/>
+    <b>User profiles</b> - this is what will be used for the mapping and user profiling in future works. For now this just shows the username, SID, and the path to where the NTUSER.DAT file can be found for that user. This will help retriving the correct files and make it easier to organize and maintain user profiling.
+    <br/><br/>
+    <b>User Accounts</b> - based on the <b>SAM</b> entries for the user accounts created on the machine.
+     <br/><br/>
+    For this the following registry keys were used to extract the information from <b>SOFTWARE</b> and <b>SAM</b> hive files:
+</p>
+<pre>
+    Microsoft\\Windows NT\\CurrentVersion
+    Microsoft\\Windows NT\\CurrentVersion\\ProfileList
+    Microsoft\\Windows NT\\CurrentVersion\\ProfileList\\{each SID} - to get the path for ntuser.dat for a user
+    SAM\\Domains\\Account\\Users\\Names
+</pre>
+
+</body>
+</html>
